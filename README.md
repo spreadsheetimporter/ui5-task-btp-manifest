@@ -1,9 +1,14 @@
 # UI5 task to change Spreadsheet Importer manifest
 
+When deploying the UI5 App which has integrated the Spreadsheet Importer to the SAP BTP, the service name in the manifest.json of the Spreadsheet Importer has to be the same as in the UI5 App using the Spreadsheet Importer.  
+This task will change the service name in the manifest.json of the Spreadsheet Importer to the service name of the UI5 App so no manual changes are needed.
+
+https://www.npmjs.com/package/ui5-task-btp-manifest
+
 ## Install
 
 ```bash
-npm install --save-devui5-task-btp-manifest
+npm install --save-dev ui5-task-btp-manifest
 ```
 
 ## Usage

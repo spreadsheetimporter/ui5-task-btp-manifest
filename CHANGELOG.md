@@ -5,6 +5,14 @@
 
 ### Features
 
-* add config option `service` and `debug` ([5c71d34](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/5c71d34ed0ea5f9af1cec3d020429680b3d89275))
+* add config option `service` and `debug` ([5c71d34](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/ac6e3da0345bcf9e43a810499b951622ea7f8173))
 
 ## 0.0.3 (2024-07-03)
+
+## 0.0.2 (2024-07-03)
+
+## 0.0.1 (2024-07-03)
+
+### Features
+
+* initial commit ([4d7f7a1](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/4d7f7a18a420c88f302dc1ce3c1845af1b12d686))
