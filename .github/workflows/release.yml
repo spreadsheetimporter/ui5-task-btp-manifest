@@ -22,6 +22,23 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Generate .npmrc
+      run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+      env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+    - name: Setup git user
+      run: |
+        git config --global user.email "13335743+marianfoo@users.noreply.github.com"
+        git config --global user.name "marianfoo"
+
+    - name: Log git status and diff
+      run: |
+        echo "Checking git status..."
+        git status
+        echo "Checking git diff..."
+        git diff
+
     - name: Create Release
       run: npm run release
       env:

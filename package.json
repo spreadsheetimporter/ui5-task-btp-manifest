@@ -1,9 +1,10 @@
 {
   "name": "ui5-task-btp-manifest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "custom ui5 tooling task",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "local-release": "npx release-it --no-git.requireCleanWorkingDir --no-npm.publish --no-github.release",
     "release": "release-it"
   },
   "repository": {
