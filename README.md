@@ -25,4 +25,4 @@ builder:
 ## Configuration options
 
 - `service`: The name of the service to be used in the manifest.json of the Spreadsheet Importer. If not specified, the value from the UI5 App manifest is used.
-- `debug`: If set to `true`, the task will log additional information to the console.
+- `debug`: If set to `true`, the task will log additional information to the console.  
