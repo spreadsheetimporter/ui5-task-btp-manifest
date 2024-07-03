@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions UI
+  push:
+    tags:
+      - 'v*.*.*'  # Triggers on tags matching the pattern 'vX.X.X'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Create Release
+      run: npm run release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

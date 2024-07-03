@@ -2,5 +2,22 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
   "github": {
     "release": true
+  },
+  "npm": {
+    "publish": true,
+    "token": "${NPM_TOKEN}"
+  },
+  "git": {
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": true,
+    "requireBranch": "main",
+    "commitMessage": "Release v${version}",
+    "tagAnnotation": "Release v${version}"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
   }
 }
