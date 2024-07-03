@@ -2,18 +2,21 @@
   "name": "ui5-task-btp-manifest",
   "version": "0.0.1",
   "description": "custom ui5 tooling task",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spreadsheetimporter/ui5-task-btp-manifest.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Marian Zeis",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/spreadsheetimporter/ui5-task-btp-manifest/issues"
   },
-  "homepage": "https://github.com/spreadsheetimporter/ui5-task-btp-manifest#readme"
+  "homepage": "https://github.com/spreadsheetimporter/ui5-task-btp-manifest#readme",
+  "devDependencies": {
+    "release-it": "^17.4.1"
+  }
 }
