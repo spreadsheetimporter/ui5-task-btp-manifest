@@ -1,0 +1,8 @@
+# https://sap.github.io/ui5-tooling/pages/extensibility/CustomTasks/
+specVersion: "3.0"
+metadata:
+  name: ui5-task-btp-manifest
+kind: extension
+type: task
+task:
+  path: lib/task.js
