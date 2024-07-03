@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 (2024-07-03)
+
+
+### Bug Fixes
+
+* improve error handling if service not in manifest ([846bcc4](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/846bcc4d64664ee7b3f485580906dee6602584ec))
+
 # 0.1.0 (2024-07-03)
 
 
