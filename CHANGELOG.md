@@ -1,5 +1,12 @@
 # Changelog
 
+# 0.2.0 (2024-07-05)
+
+
+### Features
+
+* support spreadsheet importer for version below 0.34.0 ([e1223b4](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/e1223b4910f16e5422c9d8c08c4109d27e2d2dcc))
+
 ## 0.1.1 (2024-07-03)
 
 
