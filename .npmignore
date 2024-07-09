@@ -1,2 +1,3 @@
 # Ignore .npmrc
 .npmrc
+test
