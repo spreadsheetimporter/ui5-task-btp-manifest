@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 (2024-07-09)
+
+
+### Bug Fixes
+
+* check in devDependencies for component ([0ba887b](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/0ba887b0b36a379bf292b830085afd822d8a527f))
+
 # 0.2.0 (2024-07-05)
 
 
