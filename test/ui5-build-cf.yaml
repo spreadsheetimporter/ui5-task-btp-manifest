@@ -51,6 +51,7 @@ builder:
   - name: ui5-task-zipper
     afterTask: generateCachebusterInfo
     configuration:
+      debug: true
       archiveName: myAppName
       includeDependencies:
       - ui5-cc-spreadsheetimporter-v1-1-1

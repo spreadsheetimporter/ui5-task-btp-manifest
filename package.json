@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "local-release": "npx release-it --no-git.requireCleanWorkingDir --no-npm.publish --no-github.release",
     "release": "release-it",
-    "build-test": "npm run build --workspace=test"
+    "build-test": "npm run build --workspace=test",
+    "build-test:cf": "npm run build:cf --workspace=test",
+    "start:testapp": "npm run start-noflp --workspace=test"
   },
   "repository": {
     "type": "git",

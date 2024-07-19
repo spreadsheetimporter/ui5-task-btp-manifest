@@ -10,7 +10,7 @@
   ],
   "main": "webapp/index.html",
   "dependencies": {
-    "ui5-cc-spreadsheetimporter": "1.0.0"
+    "ui5-cc-spreadsheetimporter": "1.1.1"
   },
   "devDependencies": {
     "@ui5/cli": "^3.0.0",
@@ -23,6 +23,7 @@
     "@sap-ux/eslint-plugin-fiori-tools": "^0.2.0",
     "ui5-task-zipper" :"3.1.4",
     "@sap/ui5-builder-webide-extension": "1.1.9",
+    "ui5-middleware-servestatic": "3.1.1",
     "ui5-task-btp-manifest": "file:../"
   },
   "scripts": {
@@ -38,7 +39,8 @@
     "start-noflp": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
     "start-variants-management": "fiori run --open \"preview.html?sap-ui-xx-viewCache=false&fiori-tools-rta-mode=true&sap-ui-rta-skip-flex-validation=true#preview-app\"",
     "unit-tests": "fiori run --open 'test/unit/unitTests.qunit.html'",
-    "int-tests": "fiori run --open 'test/integration/opaTests.qunit.html'"
+    "int-tests": "fiori run --open 'test/integration/opaTests.qunit.html'",
+    "build:cf": "ui5 build preload --clean-dest --include-dependency 'ui5-cc-spreadsheetimporter-v1-1-1'  --config ui5-build-cf.yaml --include-task=generateCachebusterInfo"
   },
   "sapuxLayer": "CUSTOMER_BASE"
 }
