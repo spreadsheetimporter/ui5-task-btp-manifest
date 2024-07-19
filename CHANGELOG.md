@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2 (2024-07-19)
+
+
+### Bug Fixes
+
+* manifest was added twice when using ui5-task-zipper ([#1](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/issues/1)) ([e3bab59](https://github.com/spreadsheetimporter/ui5-task-btp-manifest/commit/e3bab5904c8fe431198e16001808f49f89f9df53))
+
 ## 0.2.1 (2024-07-09)
 
 
