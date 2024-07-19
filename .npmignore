@@ -1,3 +1,7 @@
 # Ignore .npmrc
 .npmrc
 test
+.github
+.vscode
+.prettierrc.json
+.release-it.json
