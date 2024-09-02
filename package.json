@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/spreadsheetimporter/ui5-task-btp-manifest#readme",
   "devDependencies": {
-    "release-it": "^17.4.1",
+    "release-it": "^17.6.0",
     "@release-it/conventional-changelog": "^8.0.1"
   },
   "workspaces": [
